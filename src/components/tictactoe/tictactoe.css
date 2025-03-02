@@ -1,0 +1,89 @@
+/* Container for centering content */
+.container {
+  text-align: center;
+  background: #0a192f; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Title styling */
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  color: #e0e0e0; 
+  font-size: 2.25rem;
+}
+
+/* Title span styling */
+.title span {
+  color: #00d4ff; 
+  margin-left: 0.625rem;
+}
+
+/* Reset button styling */
+.reset {
+  width: 7.5rem;
+  height: 3.75rem;
+  background: #112d4e;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 3.125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.reset:hover {
+  background: #3a506b; 
+  cursor: pointer;
+}
+
+.reset:active {
+  background: #112d4e;
+}
+
+/* Boxes styling */
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+  width: 10rem;
+  background: #112d4e;
+  border: 4px solid #1b1b2f;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.boxes:hover {
+  background: #3a506b;
+  cursor: pointer;
+}
+
+.boxes:active {
+  background: #112d4e;
+}
+
+/* Board styling */
+.board {
+  display: flex;
+  height: 33.75rem;
+  width: 29rem;
+  margin: 0 auto;
+}
+
+/* Images inside boxes */
+.boxes img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+/* Images inside title */
+.title img {
+  height: 1.875rem;
+  margin: 0.625rem;
+}
